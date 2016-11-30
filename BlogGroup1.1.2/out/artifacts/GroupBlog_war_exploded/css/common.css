@@ -1,0 +1,168 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+html {
+    background-color: #FFFFFF;
+    margin:0;
+    height: 100%;
+}
+
+body {
+    border-width: 3%;
+    background-color: #FFF;
+    font: 90% Helvetica, Sans-Serif;
+    margin-left: 20% auto;
+    margin-right: 20% auto;
+    padding: 0% 0%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+pre {
+    font-size: 14px;
+    padding: 0 0 0 15px;
+    margin: 0;
+    background: #f0f0f0;
+    line-height: 20px; /* 行距 */
+    background: url(/image/pre-bg.gif) repeat-y left top;
+    width: 95%;
+    overflow: auto; /* 超出宽度出现滑动条 */
+    overflow-Y:hidden; /* 作用是隐藏IE的右侧滑动条 */
+}
+.fsize a{
+    font-size: 24px;
+    color:#444;
+    font-weight: normal;
+    line-height: 60px;
+
+
+}
+.afont{
+    color:#996600;
+}
+.time{
+    font-size: 14px;
+    font-style: italic;
+}
+.node{
+    color: #555;
+    text-indent:1cm;
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.node img{
+    width:100%;
+}
+table a{
+    color: #996600;
+}
+.vbox{
+    float:left;
+    margin-left: 0;
+}
+
+#header h2{
+    margin-top: -9.5%;
+    font-size: 172%;
+}
+#header h4 {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 3%;
+    margin-top: -0.2%;
+    text-indent: 37%;
+    font-size: 130%;
+}
+
+a:hover {
+    color: #cc3300;
+}
+#header {
+    margin-bottom: 15px;
+}
+#header h4 {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 18px;
+    text-indent: 10px;
+}
+#all{
+    height: 100%;
+}
+
+#nave{
+    margin-bottom: 1%;
+    border-color: #F1F0DF #FFFFFF #F1F0DF #FFFFFF ;
+    border-style: solid;
+    border-width: 8px;
+    height: 18%;
+    width:auto;
+
+}
+#mbox{
+    border-style: solid;
+    border-color: #FFFFFF #FFFFFF #F2F4F8 #FFFFFF;
+    border-width: 3px;
+    margin-bottom: 30px;
+    height: 40px;
+}
+#header nav {
+    font-size: 85%;
+    /*height:100%;*/
+    background-color: white;
+}
+#nave1{
+    left:0;
+    width:70%;
+    position:absolute;
+
+}
+#seart{
+    margin-left: 75%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#nsize{
+    float: left;
+    margin-left: 3%;
+    margin-top:4.2%;
+
+}
+#pictures{
+    float:left;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+#article {
+    text-align: justify;
+    overflow: hidden;
+}
+#foot a{
+    color: #444;
+}
+
+#article {
+    overflow: hidden;
+    text-align: justify;
+}
+#article section {
+    /* height:600px;*/
+    float: left;
+    width: 800px;
+    margin-left: 265px;
+}
+#foot{
+    float:right;
+    margin-top:20px;
+    background-color:#F1F0DF;
+    text-align: center;
+    width: 100%;
+    /*height: 100%;*/
+}
+footer {
+    margin: 15px 0 10px;
+    text-align: center;
+}

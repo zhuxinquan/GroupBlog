@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GroupBlog:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.get_blog_content.zxq.war">
+      <element id="artifact" artifact-name="GroupBlog:war exploded" />
+    </root>
+  </artifact>
+</component>
