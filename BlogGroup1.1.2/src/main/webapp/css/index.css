@@ -58,6 +58,8 @@ td{
     font-style: inherit;
     color: #777;
     text-indent:1cm;
+    letter-spacing:1px;
+    line-height:26px;
 }
 
 .node img{

@@ -41,7 +41,8 @@
 <head>
     <title>Xiyou Linux Group博客系统</title>
     <meta charset="utf-8">
-    <meta name="viewport"  content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+    <meta name="viewport"  content="width=device-width"/>
     <script type="text/javascript" src="http://7xs8o3.com1.z0.glb.clouddn.com/tagcloud.js"></script>
     <%--<script type="text/javascript" src="./js/tagcloud.js"></script>--%>
     <script type="text/javascript" src="http://7xs8o3.com1.z0.glb.clouddn.com/jquery-1.11.1.min.js"></script>
