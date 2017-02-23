@@ -401,7 +401,12 @@
                 <span>free open share</span>
             </p>
             <p>
-                <span><a href="http://www.xiyoulinux.org">西邮Linux兴趣小组</a> 版权所有 © 2016</span>
+                <span><a href="http://www.xiyoulinux.org">西邮Linux兴趣小组</a> 版权所有 ©
+                    <script type="text/javascript">copyright=new Date();
+                    update=copyright.getFullYear();
+                    document.write(update);
+                    </script>
+                </span>
             </p>
         </div>
     </footer>

@@ -41,8 +41,7 @@
 <head>
     <title>Xiyou Linux Group博客系统</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
-    <meta name="viewport"  content="width=device-width"/>
+    <meta name="viewport"  content="width=device-width, initial-scale=1"/>
     <script type="text/javascript" src="http://7xs8o3.com1.z0.glb.clouddn.com/tagcloud.js"></script>
     <%--<script type="text/javascript" src="./js/tagcloud.js"></script>--%>
     <script type="text/javascript" src="http://7xs8o3.com1.z0.glb.clouddn.com/jquery-1.11.1.min.js"></script>
@@ -402,7 +401,12 @@
                 <span>free open share</span>
             </p>
             <p>
-                <span><a href="http://www.xiyoulinux.org">西邮Linux兴趣小组</a> 版权所有 © 2016</span>
+                <span><a href="http://www.xiyoulinux.org">西邮Linux兴趣小组</a> 版权所有 ©
+                    <script type="text/javascript">copyright=new Date();
+                    update=copyright.getFullYear();
+                    document.write(update);
+                    </script>
+                </span>
             </p>
         </div>
     </footer>
