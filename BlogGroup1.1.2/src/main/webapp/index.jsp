@@ -216,7 +216,7 @@
                     }
                     if(category != null){
                         String s = "'%" + category + "%'";
-                        condition = condition + "category=" + URLEncoder.encode(category) + "&";
+                        condition = condition + "category=" + category + "&";
                         condition1 = condition1 + " category like " + s + " or title like " + s + " ";
                         queryBlog = queryBlog + " and ( category like " + s + " or title like " + s + ") ";
                     }
@@ -361,7 +361,7 @@
                     %>
                     <span>
                         <%
-                            String url = "index.jsp?category=" + URLEncoder.encode(rs.getString("category"));
+                            String url = "index.jsp?category=" + rs.getString("category");
                         %>
 							<a href="<%= url %>"><%= rs.getString("category") %></a>
                     </span>
