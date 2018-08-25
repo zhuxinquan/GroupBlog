@@ -32,9 +32,9 @@
     <meta charset="utf-8">
     <meta name="viewport"  content="width=device-width, initial-scale=1"/>
     <link type="text/css" rel="stylesheet" href="/css/search.css">
-    <link rel="icon" href="http://7xs8o3.com1.z0.glb.clouddn.com/sign1.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="http://7xs8o3.com1.z0.glb.clouddn.com/sign1.png">
-    <link rel="Bookmark" href="http://7xs8o3.com1.z0.glb.clouddn.com/sign1.png">
+    <link rel="icon" href="http://blog-image.xiyoulinux.org/xiyou-linux-log.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://blog-image.xiyoulinux.org/xiyou-linux-log.png">
+    <link rel="Bookmark" href="http://blog-image.xiyoulinux.org/xiyou-linux-log.png">
 </head>
 <body>
 <%
@@ -47,7 +47,7 @@
         <div id="nave">
             <div id="nave1">
                 <div id="pictures">
-                    <a href="index.jsp"><img src="http://7xs8o3.com1.z0.glb.clouddn.com/sign1.png" height="100px" width="100px"></a>
+                    <a href="index.jsp"><img src="http://blog-image.xiyoulinux.org/xiyou-linux-log.png" height="100px" width="100px"></a>
                 </div>
 						<span id="nsize">
 							<a href="index.jsp"><h2>Xiyou Linux Group群博</h2></a>

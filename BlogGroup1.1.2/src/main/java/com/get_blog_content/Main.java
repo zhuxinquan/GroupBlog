@@ -25,8 +25,8 @@ public class Main {
                     FileOutputStream fos = new FileOutputStream("./blog-log/blog.log-" + dateFormat.format(new Date()), true);
                     BufferedOutputStream bos = new BufferedOutputStream(fos, 1024);
                     PrintStream ps = new PrintStream(bos, true);
-                    System.setOut(ps);
-                    System.setErr(ps);
+//                    System.setOut(ps);
+//                    System.setErr(ps);
                     System.out.println(new Date());
 
                     //取得所有的成员列表
